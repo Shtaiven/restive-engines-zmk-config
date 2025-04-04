@@ -2,10 +2,15 @@ manifest:
   remotes:
     - name: urob
       url-base: https://github.com/urob
+    - name: Shtaiven
+      url-base: https://github.com/Shtaiven
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: nice-view-fairyboard
+      remote: Shtaiven
+      revision: main
   self:
     path: config
