@@ -439,10 +439,10 @@
         base_layer {
             display-name = " ";
             bindings = <
-&td_left    &kp Q                  &kp W                 &kp E                   &kp R                  &kp T          &kp Y              &kp U                   &kp I                    &kp O                  &kp P                      &td_right
-&kp ESCAPE  &pht_left HRM_PINKY A  &pht_left HRM_RING S  &pht_left HRM_MIDDLE D  &pht_left HRM_INDEX F  &kp G          &kp H              &pht_right HRM_INDEX J  &pht_right HRM_MIDDLE K  &pht_right HRM_RING L  &pht_right HRM_PINKY SEMI  &kp SINGLE_QUOTE
-            &kp Z                  &kp X                 &kp C                   &kp V                  &kp B          &kp N              &kp M                   &kp COMMA                &kp DOT                &kp SLASH
-                                                         &lt SET TAB             &lt NAV SPACE          &lt NUM ENTER  &lt SYM BACKSPACE  &smart_shft             &lt FUN DELETE
+&td_left                    &kp Q                  &kp W                 &kp E                   &kp R                  &kp T          &kp Y              &kp U                   &kp I                    &kp O                  &kp P                      &td_right
+&pht_left RIGHT_ALT ESCAPE  &pht_left HRM_PINKY A  &pht_left HRM_RING S  &pht_left HRM_MIDDLE D  &pht_left HRM_INDEX F  &kp G          &kp H              &pht_right HRM_INDEX J  &pht_right HRM_MIDDLE K  &pht_right HRM_RING L  &pht_right HRM_PINKY SEMI  &pht_right RIGHT_ALT SINGLE_QUOTE
+                            &kp Z                  &kp X                 &kp C                   &kp V                  &kp B          &kp N              &kp M                   &kp COMMA                &kp DOT                &kp SLASH
+                                                                         &lt SET TAB             &lt NAV SPACE          &lt NUM ENTER  &lt SYM BACKSPACE  &smart_shft             &lt FUN DELETE
             >;
         };
 
