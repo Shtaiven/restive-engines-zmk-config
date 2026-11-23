@@ -2,7 +2,7 @@ layout: {zmk_keyboard: fairyboard}
 layers:
   ' ':
   - ['&td_left', Q, W, E, R, T, Y, U, I, O, P, '&td_right']
-  - - ESCAPE
+  - - {t: ESCAPE, h: RIGHT ALT}
     - {t: A, h: LEFT ALT}
     - {t: S, h: LEFT SHIFT}
     - {t: D, h: LEFT CONTROL}
@@ -13,7 +13,7 @@ layers:
     - {t: K, h: LEFT CONTROL}
     - {t: L, h: LEFT SHIFT}
     - {t: ;, h: LEFT ALT}
-    - ''''
+    - {t: '''', h: RIGHT ALT}
   - - Z
     - X
     - C
