@@ -63,10 +63,10 @@ layers:
     - $
     - '%'
     - ''
-    - LEFT GUI
-    - LEFT CONTROL
-    - LEFT SHIFT
-    - LEFT ALT
+    - {t: LEFT GUI, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT ALT, h: sticky}
     - {t: RIGHT ALT, h: sticky}
   - - '{'
     - '}'
@@ -105,10 +105,10 @@ layers:
     - F8
     - SCROLLLOCK
     - ''
-    - LEFT GUI
-    - LEFT CONTROL
-    - LEFT SHIFT
-    - LEFT ALT
+    - {t: LEFT GUI, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT ALT, h: sticky}
     - {t: RIGHT ALT, h: sticky}
   - - F1
     - F2
@@ -141,10 +141,10 @@ layers:
     - PRINTSCREEN
     - {t: num, h: base}
   - - {t: RIGHT ALT, h: sticky}
-    - LEFT ALT
-    - LEFT SHIFT
-    - LEFT CONTROL
-    - LEFT GUI
+    - {t: LEFT ALT, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT GUI, h: sticky}
     - ''
     - HOME
     - LEFT
@@ -183,10 +183,10 @@ layers:
     - '-'
     - {t: num, h: base}
   - - {t: RIGHT ALT, h: sticky}
-    - LEFT ALT
-    - LEFT SHIFT
-    - LEFT CONTROL
-    - LEFT GUI
+    - {t: LEFT ALT, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT GUI, h: sticky}
     - ''
     - '*'
     - '4'

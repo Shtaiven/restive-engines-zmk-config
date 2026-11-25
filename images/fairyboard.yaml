@@ -60,10 +60,10 @@ layers:
     - $
     - '%'
     - ''
-    - LEFT GUI
-    - LEFT CONTROL
-    - LEFT SHIFT
-    - LEFT ALT
+    - {t: LEFT GUI, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT ALT, h: sticky}
     - {t: RIGHT ALT, h: sticky}
   - - '{'
     - '}'
@@ -90,10 +90,10 @@ layers:
     - F8
     - SCROLLLOCK
     - ''
-    - LEFT GUI
-    - LEFT CONTROL
-    - LEFT SHIFT
-    - LEFT ALT
+    - {t: LEFT GUI, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT ALT, h: sticky}
     - {t: RIGHT ALT, h: sticky}
   - - F1
     - F2
@@ -114,10 +114,10 @@ layers:
   nav:
   - ['&td_left', LEFT CONTROL, LEFT GUI, '&mkp RCLK', '&mkp LCLK', '&mkp MCLK', '', PAGE UP, UP, PAGE DOWN, PRINTSCREEN, '&td_right']
   - - {t: RIGHT ALT, h: sticky}
-    - LEFT ALT
-    - LEFT SHIFT
-    - LEFT CONTROL
-    - LEFT GUI
+    - {t: LEFT ALT, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT GUI, h: sticky}
     - ''
     - HOME
     - LEFT
@@ -144,10 +144,10 @@ layers:
   num:
   - ['&td_left', LEFT CONTROL, LEFT GUI, '&mkp RCLK', '&mkp LCLK', '&mkp MCLK', /, '7', '8', '9', '-', '&td_right']
   - - {t: RIGHT ALT, h: sticky}
-    - LEFT ALT
-    - LEFT SHIFT
-    - LEFT CONTROL
-    - LEFT GUI
+    - {t: LEFT ALT, h: sticky}
+    - {t: LEFT SHIFT, h: sticky}
+    - {t: LEFT CONTROL, h: sticky}
+    - {t: LEFT GUI, h: sticky}
     - ''
     - '*'
     - '4'
