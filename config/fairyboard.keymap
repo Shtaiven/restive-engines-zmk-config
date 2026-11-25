@@ -470,7 +470,7 @@
             display-name = "sym";
             bindings = <
 &td_left  &kp CARET        &kp AMPERSAND    &kp ASTERISK      &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &none              &none          &none           &none         &none          &td_right
-&none     &kp EXCLAMATION  &kp AT_SIGN      &kp HASH          &kp DOLLAR             &kp PERCENT            &none              &kp HRM_INDEX  &kp HRM_MIDDLE  &kp HRM_RING  &kp HRM_PINKY  &sk RIGHT_ALT
+&none     &kp EXCLAMATION  &kp AT_SIGN      &kp HASH          &kp DOLLAR             &kp PERCENT            &none              &sk HRM_INDEX  &sk HRM_MIDDLE  &sk HRM_RING  &sk HRM_PINKY  &sk RIGHT_ALT
           &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &none                  &none              &none          &none           &none         &none
                                             &lt SET TAB       &lt NAV SPACE          &lt NUM ENTER          &lt SYM BACKSPACE  &smart_shft    &lt FUN DELETE
             >;
@@ -480,7 +480,7 @@
             display-name = "fun";
             bindings = <
 &td_left  &kp F9  &kp F10  &kp F11  &kp F12  &kp SYSREQ       &none   &none          &none           &none         &none          &td_right
-&none     &kp F5  &kp F6   &kp F7   &kp F8   &kp SCROLLLOCK   &none   &kp HRM_INDEX  &kp HRM_MIDDLE  &kp HRM_RING  &kp HRM_PINKY  &sk RIGHT_ALT
+&none     &kp F5  &kp F6   &kp F7   &kp F8   &kp SCROLLLOCK   &none   &sk HRM_INDEX  &sk HRM_MIDDLE  &sk HRM_RING  &sk HRM_PINKY  &sk RIGHT_ALT
           &kp F1  &kp F2   &kp F3   &kp F4   &kp PAUSE_BREAK  &none   &none          &none           &none         &none
                            &trans   &trans   &trans           &trans  &trans         &trans
             >;
@@ -490,7 +490,7 @@
             display-name = "nav";
             bindings = <
 &td_left       &kp HRM_MIDDLE     &kp HRM_INDEX      &mkp RCLK          &mkp LCLK          &mkp MCLK  &none     &kp PAGE_UP  &kp UP     &kp PAGE_DOWN  &kp PRINTSCREEN  &td_right
-&sk RIGHT_ALT  &kp HRM_PINKY      &kp HRM_RING       &kp HRM_MIDDLE     &kp HRM_INDEX      &none      &kp HOME  &kp LEFT     &kp DOWN   &kp RIGHT      &kp END          &kp INSERT
+&sk RIGHT_ALT  &sk HRM_PINKY      &sk HRM_RING       &sk HRM_MIDDLE     &sk HRM_INDEX      &none      &kp HOME  &kp LEFT     &kp DOWN   &kp RIGHT      &kp END          &kp INSERT
                &kp SYSTEM_MOD(Z)  &kp SYSTEM_MOD(X)  &kp SYSTEM_MOD(C)  &kp SYSTEM_MOD(V)  &none      &none     &none        &none      &none          &none
                                                      &trans             &trans             &trans     &trans    &trans       &trans
             >;
@@ -500,7 +500,7 @@
             display-name = "num";
             bindings = <
 &td_left         &kp HRM_MIDDLE     &kp HRM_INDEX      &mkp RCLK          &mkp LCLK          &mkp MCLK  &kp SLASH     &kp N7  &kp N8  &kp N9  &kp MINUS   &td_right
-&sk RIGHT_ALT    &kp HRM_PINKY      &kp HRM_RING       &kp HRM_MIDDLE     &kp HRM_INDEX      &none      &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS    &kp EQUAL
+&sk RIGHT_ALT    &sk HRM_PINKY      &sk HRM_RING       &sk HRM_MIDDLE     &sk HRM_INDEX      &none      &kp ASTERISK  &kp N4  &kp N5  &kp N6  &kp PLUS    &kp EQUAL
                  &kp SYSTEM_MOD(Z)  &kp SYSTEM_MOD(X)  &kp SYSTEM_MOD(C)  &kp SYSTEM_MOD(V)  &none      &kp COMMA     &kp N1  &kp N2  &kp N3  &kp PERIOD
                                                        &trans             &trans             &trans     &trans        &kp N0  &kp ENTER
             >;
